@@ -9,11 +9,11 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://username:password@localhos
 db = SQLAlchemy(app)
 
 # Configure Flask-Mail
-app.config['MAIL_SERVER'] = 'smtp.example.com'
+app.config['MAIL_SERVER'] = 'smtp.gmail.com'
 app.config['MAIL_PORT'] = 587
 app.config['MAIL_USE_TLS'] = True
-app.config['MAIL_USERNAME'] = 'your-email@example.com'
-app.config['MAIL_PASSWORD'] = 'your-email-password'
+app.config['MAIL_USERNAME'] = 'jayash.s@goglocal.com'
+app.config['MAIL_PASSWORD'] = 'StrongSuper$403'
 mail = Mail(app)
 
 # Define the database model
